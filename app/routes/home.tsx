@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Button } from "~/lib/components/ui/button";
+import { Button } from "~/lib/components/atoms";
 
 export function meta() {
   return [
