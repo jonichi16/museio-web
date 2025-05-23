@@ -20,7 +20,7 @@ export default function Home() {
   };
 
   return (
-    <main className="min-h-screen flex flex-col gap-5 items-center justify-center">
+    <div className="flex flex-col items-center justify-center min-h-[calc(100vh-4rem)] gap-5">
       <h1 className="text-6xl font-bold uppercase">Museio App</h1>
       <p className="text-2xl">{count}</p>
       <Button className="font-bold" onClick={handleIncrease}>
@@ -34,6 +34,6 @@ export default function Home() {
       >
         Decrease
       </Button>
-    </main>
+    </div>
   );
 }
