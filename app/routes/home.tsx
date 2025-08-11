@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { GoogleLoginButton } from "~/features/home/pages/google-login-button";
 import { Button } from "~/lib/components/atoms";
 
 export function meta() {
@@ -34,6 +35,7 @@ export default function Home() {
       >
         Decrease
       </Button>
+      <GoogleLoginButton />
     </div>
   );
 }
