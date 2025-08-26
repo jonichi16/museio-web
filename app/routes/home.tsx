@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Button } from "~/lib/components/atoms";
+import { UserArts } from "~/features/arts/UserArts";
 
 export function meta() {
   return [
@@ -34,6 +35,7 @@ export default function Home() {
       >
         Decrease
       </Button>
+      <UserArts />
     </div>
   );
 }
